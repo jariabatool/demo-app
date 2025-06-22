@@ -1,4 +1,3 @@
-// src/pages/products/index.js
 import Link from 'next/link';
 import { useEffect, useState } from 'react';
 import axios from 'axios';
