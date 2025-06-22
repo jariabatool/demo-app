@@ -19,7 +19,8 @@ This is a full-stack e-commerce application for selling shirts with variant-base
 Build is Passing
 
 **Loom video:**
-https://www.loom.com/share/97f3bda042f342c78aba550b3dcfd460?sid=db4f3585-4851-4467-8030-a4418b7232dc
+https://www.loom.com
+/share/97f3bda042f342c78aba550b3dcfd460?sid=db4f3585-4851-4467-8030-a4418b7232dc
 
 To run backend: node index.js
 to run frontend: npm run dev
