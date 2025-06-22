@@ -1,0 +1,113 @@
+.container {
+  padding: 2rem;
+}
+
+.productImage {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+}
+
+.selectVariantBtn {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+}
+
+.selectedVariant {
+  margin-top: 20px;
+}
+
+.buyNowBtn {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #0070f3;
+  color: #fff;
+}
+
+.orderForm {
+  margin-top: 20px;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.confirmBtn {
+  padding: 10px 20px;
+  background-color: green;
+  color: #fff;
+}
+
+.confirmedMsg {
+  margin-top: 20px;
+  padding: 1rem;
+  background-color: #dff0d8;
+  color: #3c763d;
+}
+
+.dialogOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.dialogBox {
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  width: 90%;
+  max-width: 500px;
+}
+
+.variantOptions {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+
+.optionBtn {
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+}
+
+.activeOption {
+  padding: 6px 12px;
+  border: 2px solid #0070f3;
+  border-radius: 20px;
+}
+
+.errorMsg {
+  color: red;
+}
+
+.dialogActions {
+  margin-top: 20px;
+}
+
+.cancelBtn {
+  padding: 8px 16px;
+  margin-right: 10px;
+  background-color: #999;
+  color: #fff;
+}
+
+.selectBtn {
+  padding: 8px 16px;
+  background-color: #0070f3;
+  color: #fff;
+}
+
+.loading {
+  padding: 2rem;
+}

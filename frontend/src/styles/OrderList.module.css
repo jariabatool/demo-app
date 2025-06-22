@@ -1,0 +1,92 @@
+.container {
+  padding: 2rem;
+  font-family: sans-serif;
+}
+
+.pageTitle {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.orderLayout {
+  display: flex;
+  gap: 2rem;
+  align-items: flex-start;
+}
+
+.orderList {
+  flex: 1;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  padding: 1rem;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.orderItem {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px;
+  margin-bottom: 10px;
+  background-color: white;
+  border: 1px solid #e0e0e0;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.orderItem:hover {
+  background-color: #f1f1f1;
+}
+
+.status {
+  font-size: 0.9rem;
+  padding: 4px 8px;
+  border-radius: 4px;
+  text-transform: capitalize;
+}
+
+.pending {
+  background-color: #fff3cd;
+  color: #856404;
+}
+
+.confirmed {
+  background-color: #d4edda;
+  color: #155724;
+}
+
+.cancelled {
+  background-color: #f8d7da;
+  color: #721c24;
+}
+
+.orderDetail {
+  flex: 2;
+}
+
+.detailBox {
+  background-color: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 1.5rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.productImage {
+  max-width: 200px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-top: 5px;
+}
+
+.statusTag {
+  font-weight: bold;
+  padding: 4px 8px;
+  border-radius: 5px;
+}
